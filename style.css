@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+}
+.sec {
+  padding: 30px 150px;
+}
+.first {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: inherit;
+}
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.links {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  color: #f9faf8;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 100px;
+}
+.content {
+  width: 40%;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+button {
+  background-color: #3882f6;
+  border-radius: 5px;
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 300;
+  margin: 0;
+  border: 0;
+  width: 30%;
+}
+
+.img-container {
+  height: 300px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #768096;
+  color: #e5e7eb;
+  padding: 20px;
+  margin: 10px;
+}
+
+.seconed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seconed > h1 {
+  text-align: center;
+}
+
+.info-container {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+}
+
+.item > p {
+  width: 90%;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 90%;
+  height: 250px;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+}
+
+.thired {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.saying {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  font-size: 24px;
+  padding: 50px;
+}
+
+.saying > h2 {
+  display: flex;
+  align-self: flex-end;
+}
+
+.fourth {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.call {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  background-color: #3882f6;
+  padding: 40px;
+  border-radius: 15px;
+  color: #e5e7eb;
+  align-items: center;
+  margin: 40px;
+}
+
+.call > button {
+  border: #e5e7eb 3px solid;
+  display: flex;
+  border-color: #e5e7eb;
+  justify-content: center;
+  border-radius: 15px;
+  font-size: 24px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
